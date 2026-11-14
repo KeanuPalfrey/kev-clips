@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Terms of Service for Kev Clips, a private desktop companion used to post Twitch stream clips to TikTok and other platforms.">
+    <title>Terms of Service &middot; Kev Clips</title>
+    <style>
+:root {
+  --bg: #090611;
+  --bg-elevated: #14101c;
+  --bg-card: #1a1524;
+  --text: #efeaf6;
+  --muted: #a79bb8;
+  --line: rgba(232, 140, 255, 0.22);
+  --pink: #ff5ec8;
+  --violet: #9b6dff;
+  --glow: rgba(255, 94, 200, 0.35);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background:
+    radial-gradient(900px 420px at 12% -10%, rgba(155, 109, 255, 0.22), transparent 60%),
+    radial-gradient(800px 480px at 100% 0%, rgba(255, 94, 200, 0.16), transparent 55%),
+    var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  font-size: 17px;
+}
+a { color: var(--pink); text-decoration: none; }
+a:hover { color: #ff93dc; text-decoration: underline; }
+a:focus-visible {
+  outline: 2px solid var(--violet);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.wrap {
+  width: min(860px, calc(100% - 40px));
+  margin: 0 auto;
+}
+header {
+  border-bottom: 1px solid var(--line);
+  background: rgba(9, 6, 17, 0.78);
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 0;
+  flex-wrap: wrap;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+.brand:hover { color: var(--text); text-decoration: none; }
+.mark {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--pink), var(--violet));
+  box-shadow: 0 0 16px var(--glow);
+  flex: 0 0 auto;
+}
+.links { display: flex; gap: 18px; flex-wrap: wrap; }
+.links a { color: var(--muted); font-size: 0.95rem; }
+.links a:hover, .links a[aria-current="page"] { color: var(--pink); }
+main { padding: 48px 0 72px; }
+h1 {
+  font-size: clamp(2rem, 4vw, 2.7rem);
+  line-height: 1.15;
+  margin: 0 0 12px;
+  background: linear-gradient(90deg, #fff, var(--pink) 55%, var(--violet));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.lede {
+  color: var(--muted);
+  font-size: 1.08rem;
+  margin: 0 0 28px;
+  max-width: 42em;
+}
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.28);
+}
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btn:hover { text-decoration: none; }
+.btn-primary {
+  background: linear-gradient(135deg, var(--pink), var(--violet));
+  color: #140814;
+  box-shadow: 0 0 22px var(--glow);
+}
+.btn-primary:hover { color: #140814; filter: brightness(1.08); }
+.btn-ghost {
+  border-color: var(--line);
+  color: var(--text);
+  background: var(--bg-elevated);
+}
+.btn-ghost:hover { color: var(--pink); border-color: var(--pink); }
+h2 {
+  font-size: 1.25rem;
+  margin: 36px 0 10px;
+  color: #fff;
+}
+h2:first-child { margin-top: 0; }
+p, li { color: var(--text); }
+ul, ol { padding-left: 1.2em; }
+li + li { margin-top: 0.4em; }
+.meta {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin: 0 0 28px;
+}
+.contact {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: var(--pink);
+  background: rgba(255, 94, 200, 0.08);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+footer {
+  border-top: 1px solid var(--line);
+  padding: 28px 0 40px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+footer a { color: var(--muted); }
+footer a:hover { color: var(--pink); }
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  main { padding: 32px 0 56px; }
+  .card { padding: 20px; }
+  .nav { padding: 14px 0; }
+}
+</style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap nav">
+        <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span>Kev Clips</a>
+        <nav class="links" aria-label="Site">
+          <a href="index.html">Home</a>
+          <a href="terms.html" aria-current="page">Terms of Service</a>
+          <a href="privacy.html">Privacy Policy</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <h1>Terms of Service</h1>
+      <p class="meta">Last updated: 14 November 2026</p>
+      <article class="card">
+        <h2>1. Acceptance</h2>
+        <p>These Terms of Service ("Terms") govern use of the Kev Clips desktop application and this website (together, the "Service"). The Service is a private companion app operated by Mev Bushwacker ("we", "us") from Queensland, Australia, and is intended for use only by the streamer on his own Windows PC.</p>
+        <p>By installing, accessing or using the Service, you agree to these Terms and to the <a href="privacy.html">Privacy Policy</a>. If you do not agree, do not use the Service.</p>
+
+        <h2>2. Description of the Service</h2>
+        <p>Kev Clips helps the user create clips from Twitch streams, convert them into vertical 9:16 videos with subtitles and titles, and upload or post those videos to the user's own accounts on third-party platforms, including TikTok, YouTube Shorts, Instagram, Facebook Reels and X.</p>
+        <p>TikTok features use TikTok for Developers Login Kit and the Content Posting API, with the following scopes:</p>
+        <ul>
+          <li><strong>user.info.basic</strong> &mdash; to display the connected TikTok account name and avatar so the user can confirm the correct account is linked.</li>
+          <li><strong>video.upload</strong> &mdash; to send a finished video to the user's TikTok drafts or inbox.</li>
+          <li><strong>video.publish</strong> &mdash; to publish a finished video directly to the user's TikTok account when the user chooses direct post.</li>
+        </ul>
+        <p>The Service runs locally on the user's computer. It does not provide a public website product, a multi-user platform, or hosted accounts.</p>
+
+        <h2>3. User responsibilities</h2>
+        <p>You are solely responsible for the content you create, edit, upload or publish with the Service, including clips, videos, titles, captions, hashtags, images and audio.</p>
+        <p>You agree that you will:</p>
+        <ul>
+          <li>Use the Service only with accounts you own or are authorised to operate.</li>
+          <li>Own, or have all rights and licences needed for, the content you post, including video, audio, music, images, names and trademarks.</li>
+          <li>Comply with these Terms and with the terms, community guidelines and policies of every platform you use, including Twitch and TikTok.</li>
+          <li>Complete any required TikTok Music Usage Confirmation honestly, and only include music or other audio that you have the right to use or that TikTok permits for the chosen posting method.</li>
+          <li>Not use the Service to post unlawful, infringing, harmful, deceptive or otherwise prohibited content, or to access anyone else's accounts or data.</li>
+          <li>Keep your device, local files and platform credentials secure.</li>
+        </ul>
+        <p>We do not review content before it is posted. Platform rules and enforcement are controlled by those platforms, not by Kev Clips.</p>
+
+        <h2>4. Third-party platforms</h2>
+        <p>The Service integrates with third-party platforms such as TikTok, Twitch, YouTube, Instagram, Facebook and X. Those services are operated by their own providers and are subject to their own terms and privacy policies. We do not control, and are not responsible for, the availability, behaviour, review decisions, content policies or data practices of third-party platforms.</p>
+        <p>Connecting an account, granting permissions, uploading a draft or publishing a post is an action you take. If a platform changes its API, limits posting, rejects a video, or revokes access, the Service may not be able to complete a post.</p>
+
+        <h2>5. No warranty</h2>
+        <p>The Service is provided "as is" and "as available", without warranties of any kind, whether express, implied or statutory, including implied warranties of merchantability, fitness for a particular purpose, title and non-infringement. We do not warrant that the Service will be uninterrupted, error-free, or compatible with every platform feature or change.</p>
+        <p>Nothing in these Terms excludes, restricts or modifies any consumer guarantee, right or remedy that cannot be excluded under the Australian Consumer Law or other applicable law.</p>
+
+        <h2>6. Limitation of liability</h2>
+        <p>To the maximum extent permitted by law, we are not liable for any indirect, incidental, special, consequential or punitive losses, or for any loss of profits, revenue, data, goodwill or business opportunity, arising out of or in connection with the Service or these Terms, whether in contract, tort (including negligence) or otherwise.</p>
+        <p>To the maximum extent permitted by law, our total aggregate liability arising out of or in connection with the Service or these Terms is limited to AUD $0, because the Service is provided free of charge for private use. Where liability cannot be limited to this amount, it is limited to the resupply of the Service or the cost of resupply, as permitted by law.</p>
+
+        <h2>7. Termination</h2>
+        <p>You may stop using the Service at any time by closing the app, disconnecting linked accounts in the app, and deleting the application folder from your computer. You may also revoke TikTok access in your TikTok account settings as described in the Privacy Policy.</p>
+        <p>We may discontinue or change the Service at any time, including if a third-party platform changes or withdraws its APIs. Provisions that by their nature should survive (including ownership of your content, disclaimer of warranties, limitation of liability and governing law) will survive termination.</p>
+
+        <h2>8. Changes</h2>
+        <p>We may update these Terms from time to time. The updated version will be posted on this page with a revised "Last updated" date. Continued use of the Service after an update means you accept the revised Terms. If you do not agree, stop using the Service.</p>
+
+        <h2>9. Governing law</h2>
+        <p>These Terms are governed by the laws of Queensland, Australia. You agree that the courts of Queensland, Australia have exclusive jurisdiction over disputes arising out of or in connection with these Terms or the Service, except where applicable law provides otherwise.</p>
+
+        <h2>10. Contact</h2>
+        <p>Questions about these Terms can be sent to <span class="contact">[CONTACT EMAIL]</span>.</p>
+      </article>
+    </main>
+    <footer>
+      <div class="wrap">
+        <div>Kev Clips &middot; Last updated: 14 November 2026</div>
+        <div>
+          <a href="terms.html">Terms</a> &middot;
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
